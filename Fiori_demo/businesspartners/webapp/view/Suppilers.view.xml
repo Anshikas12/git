@@ -1,0 +1,8 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ns.businesspartners.controller.Suppilers" displayBlock="true"><Page id="page" title="{i18n>title}">
+        <content>
+            <ActionListItem type="Navigation" text="Text" id="item0"/>
+            <ActionListItem xmlns:cd="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" type="Navigation" text="Text" id="item1" cd:w5g.dt.context="/BusinessPartnerSet"/>
+            <StandardListItem xmlns:cd="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" type="Navigation" title="companyname" description="Description text" icon="sap-icon://picture" id="item2" cd:w5g.dt.context="/BusinessPartnerSet"/>
+        </content>
+    </Page>
+</mvc:View>
